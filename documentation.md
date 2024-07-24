@@ -34,7 +34,7 @@ All these files work together to form a system designed for Question/Answering o
 3. The uploader.py script is a flask server that handles file uploads. For a successfully uploaded file, it triggers ingest.py and then privateGPT.py.
 4. The Makefile provides an easy way to execute commonly used commands like setting up the project, running the local server, and starting the uploader or processing scripts.
     Remember, the ingest.py and privateGPT.py scripts are independent of the flask server. They can be triggered manually without an upload process. 
-
+ 
 
 # script wise description
 
